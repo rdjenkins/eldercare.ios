@@ -15,6 +15,7 @@
 		6FF2BD4A1F9B7C41007651D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF2BD481F9B7C41007651D2 /* LaunchScreen.storyboard */; };
 		6FF2BD551F9B7C41007651D2 /* EldercareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF2BD541F9B7C41007651D2 /* EldercareTests.m */; };
 		6FF2BD601F9B7C41007651D2 /* EldercareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF2BD5F1F9B7C41007651D2 /* EldercareUITests.m */; };
+		6FF2BD6E1F9B8128007651D2 /* eldercare-master in Resources */ = {isa = PBXBuildFile; fileRef = 6FF2BD6D1F9B8128007651D2 /* eldercare-master */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6FF2BD5B1F9B7C41007651D2 /* EldercareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EldercareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF2BD5F1F9B7C41007651D2 /* EldercareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EldercareUITests.m; sourceTree = "<group>"; };
 		6FF2BD611F9B7C41007651D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF2BD6D1F9B8128007651D2 /* eldercare-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "eldercare-master"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				6FF2BD531F9B7C41007651D2 /* EldercareTests */,
 				6FF2BD5E1F9B7C41007651D2 /* EldercareUITests */,
 				6FF2BD381F9B7C41007651D2 /* Products */,
+				6FF2BD6D1F9B8128007651D2 /* eldercare-master */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF2BD6E1F9B8128007651D2 /* eldercare-master in Resources */,
 				6FF2BD4A1F9B7C41007651D2 /* LaunchScreen.storyboard in Resources */,
 				6FF2BD471F9B7C41007651D2 /* Assets.xcassets in Resources */,
 				6FF2BD451F9B7C41007651D2 /* Main.storyboard in Resources */,
@@ -431,9 +435,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TJ5856E388;
 				INFOPLIST_FILE = Eldercare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Agnate.Eldercare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -443,9 +449,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TJ5856E388;
 				INFOPLIST_FILE = Eldercare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Agnate.Eldercare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
