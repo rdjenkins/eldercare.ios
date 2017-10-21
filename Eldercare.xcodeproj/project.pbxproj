@@ -526,6 +526,7 @@
 				6FF2BD661F9B7C41007651D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FF2BD671F9B7C41007651D2 /* Build configuration list for PBXNativeTarget "EldercareTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +535,7 @@
 				6FF2BD691F9B7C41007651D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FF2BD6A1F9B7C41007651D2 /* Build configuration list for PBXNativeTarget "EldercareUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +544,7 @@
 				6FF2BD6C1F9B7C41007651D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
