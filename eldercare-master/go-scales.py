@@ -20,7 +20,7 @@ path_to_android_app_folder = "/home/dean/AndroidStudioProjects/Eldercare/app/src
 # scales to be included
 scales = ['wells','has-bled','cha2ds2-vasc','amt','frax','qfracture','abcd2','curb-65']
 # guidelines to be included
-guidelines = ['stroke']
+guidelines = ['stroke','acute_heart_failure_qs']
 # HTML template
 scale_template = 'go-scales_template.html'
 scalecounter = 0
@@ -98,7 +98,8 @@ if template_js.find(js_swap_string) == -1:
     sys.exit()
 
 def htmlentities(string):
-    string = cgi.escape(string).encode('ascii', 'xmlcharrefreplace') # markup htmlentities
+    string = cgi.escape(string) # HTML entities
+    string = re.sub(r"'","\\'",string)
     string = re.sub(r'\[\[(.*?)\]\[(.*?)\]\]',r'<a href="\1">\2</a>',string) # find and code org-mod encoded hyperlinks
     return string
 
