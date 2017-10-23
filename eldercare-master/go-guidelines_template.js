@@ -16,7 +16,7 @@ window.onload = function() {
     if (window.jQuery) {  
         // jQuery is loaded  
         console.log("Great! jQuery present");
-        // do something fancy here :-)
+        $('#glb_0').collapse('show');
     } else {
         // jQuery is not loaded
         console.log("No jQuery");
